@@ -1,27 +1,27 @@
 /**
  * Strategy Pattern
  *
- * Defination:
+ * Definition:
  * The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable.
  * Strategy lets the algorithm vary independently from clients that use it. -- source (Head first design pattern)
  *
  * When To use:
- * When you have objects which can have same class design but different behaviour based on individual characterstics.
- * Suppose you have vehicle design system to design .User will select properties and softwere has to render that realtime.
+ * When you have objects which can have same class design but different behavior based on individual characteristics.
+ * Suppose you have vehicle design system to design .User will select properties and software has to render that realtime.
  * Here we need to identify which things would be fix and which things would very.
- * here consider three things are changing behaviour
- * 1.Speed : Diffrent  bicks will have different speed
+ * here consider three things are changing behavior
+ * 1.Speed : Different  bilks will have different speed
  * 2.Wheels : Different vehicles have different number of wheels and their type ,price ,properties etc
  * 3.Design : Each vehicle will have different design like color,structure etc.
- * so above three are our changing behaviours . User can select number of wheels ,speed, design based on that UI will render
+ * so above three are our changing behaviors . User can select number of wheels ,speed, design based on that UI will render
  * vehicle.
- * So we will create seperate interface for all above three behaviours and will include all things which are required
- * to define that behaviour.So It can me implimented by different Class to define their   different strategy.
+ * So we will create separate interface for all above three behaviors and will include all things which are required
+ * to define that behavior.So It can me implemented by different Class to define their   different strategy.
  * Vehicle class would be our Parent class and all the vehicle will be created by inheriting Vehicle class.
  */
 
 /**
- * This are our strategis that will be varying based on vehicle type
+ * This are our strategies that will be varying based on vehicle type
  */
 interface SpeedBehaviour {
   getMaxSpeed: () => number;

@@ -6,8 +6,8 @@
  * This Pattern is easy to understand as it can be relate to real life examples also.
  * like notifying users through mail/WA based on their subscription .
  * Here ,will implement observer patter for above scenario.
- * Here subject is Message content (It can be notification for new marketing campeign or new blog release).
- * Observers whould be medium through  users should be modified.We  have three medium email,WA and SMS.
+ * Here subject is Message content (It can be notification for new marketing campaign or new blog release).
+ * Observers would be medium through  users should be modified.We  have three medium email,WA and SMS.
  */
 
 /**
@@ -28,7 +28,7 @@ interface Publisher {
 }
 
 /**
- * concret Message Publisher class that will notify all its observer
+ * concrete Message Publisher class that will notify all its observer
  */
 class MessagePublisher implements Publisher {
   private observers: Observer[];
