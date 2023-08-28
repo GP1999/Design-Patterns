@@ -1,2 +1,2 @@
 # Design-Patterns
-Implementation of examples of different design pattern
+Implementation of  different design pattern examples
