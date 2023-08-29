@@ -23,7 +23,7 @@ Just Indtall ts-node  as global dependency
 
 ## 📦 Patterns Implemented
 
-1. **[Adapter Pattern](./adapter.ts)** 🔄
+1. **[Adapter Pattern](./adaptor.ts)** 🔄
 2. **[Decorator Pattern](./decorator.ts)** 🎨
 3. **[Observer Pattern](./src/observer.ts)** 👀
 4. **[Singleton Pattern](./src/singleton.ts)** 🌐
