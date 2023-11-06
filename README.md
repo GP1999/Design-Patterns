@@ -25,10 +25,10 @@ Just Indtall ts-node  as global dependency
 
 1. **[Adapter Pattern](./adaptor.ts)** 🔄
 2. **[Decorator Pattern](./decorator.ts)** 🎨
-3. **[Observer Pattern](./src/observer.ts)** 👀
-4. **[Singleton Pattern](./src/singleton.ts)** 🌐
-5. **[Strategy Pattern](./src/strategy.ts)** 📝
-6. **[Command Pattern](./src/commandPattern.ts)** ⚙️
+3. **[Observer Pattern](./observer.ts)** 👀
+4. **[Singleton Pattern](./singleton.ts)** 🌐
+5. **[Strategy Pattern](./strategy.ts)** 📝
+6. **[Command Pattern](./commandPattern.ts)** ⚙️
 
 ## 🔨 Usage
 
